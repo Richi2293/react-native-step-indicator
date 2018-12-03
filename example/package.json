@@ -10,18 +10,19 @@
   },
   "dependencies": {
     "prop-types": "^15.6.0",
-    "react": "^16.3.0-alpha.1",
-    "react-native": "0.54.2",
+    "react": "16.6.1",
+    "react-native": "^0.57.5",
     "react-native-paged-scroll-view": "^2.0.4",
-    "react-native-step-indicator": "file:../",
+    "react-native-step-indicator": "file:../react-native-step-indicator-0.0.9.tgz",
     "react-native-vector-icons": "^4.5.0",
     "rn-viewpager": "^1.2.9"
   },
   "devDependencies": {
-    "babel-jest": "18.0.0",
-    "babel-preset-react-native": "1.9.1",
-    "jest": "18.1.0",
-    "react-test-renderer": "15.4.2"
+    "babel-jest": "23.6.0",
+    "babel-preset-react-native": "^5",
+    "metro-react-native-babel-preset": "0.49.2",
+    "jest": "23.6.0",
+    "react-test-renderer": "16.6.1"
   },
   "jest": {
     "preset": "react-native"

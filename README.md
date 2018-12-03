@@ -119,6 +119,13 @@ onPageChange(position){
 
 If you'd like to see something added or changed to this module please open a new GitHub issue. Pull requests are always welcome.
 
+### How to run example
+1) copy repo
+2) on the library path run "npm i"
+3) on the library path run "npm pack" (this will generate a file "react-native-step-indicator-0.0.9.tgz")
+4) on the react native example run npm i
+5) to run the react native example run "react-native run-android" (for example)
+
 ### License
 
  - [Apache-2.0](https://github.com/24ark/react-native-step-indicator/blob/master/LICENSE).  © Arkit Vora

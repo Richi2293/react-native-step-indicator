@@ -53,6 +53,7 @@ export default class VerticalStepIndicator extends Component {
             renderItem={this.renderPage}
             onViewableItemsChanged={this.onViewableItemsChanged}
             viewabilityConfig={this.viewabilityConfig}
+            keyExtractor={(item, index) => item.title}
           />
       </View>
     );

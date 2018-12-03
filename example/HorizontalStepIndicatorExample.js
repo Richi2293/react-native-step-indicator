@@ -150,7 +150,7 @@ export default class App extends Component {
   }
 
   renderViewPagerPage = (data) => {
-    return(<View style={styles.page}>
+    return(<View style={styles.page} key={data}>
       <Text>{data}</Text>
     </View>)
   }
